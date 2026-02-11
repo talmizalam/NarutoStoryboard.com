@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(137, 52, 190, 0.434);
+    background-repeat: no-repeat;
+    background-size: 99.99%;      
+    background-position: center;   
+    background-attachment: fixed;
+    
+}
+
+h1{
+    font-size: 2.9rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+     font-size: 32px;
+    margin-top: 50px;
+    margin-left:15px;
+}
+p{
+    font-size: 25px;
+    margin-left: 15px;
+    line-height: 10px;
+}
+.space{
+    color: rgba(213, 147, 255, 0.751);
+}
+.spaceo{
+    color: rgba(213, 147, 255, 0.751);
+    font-size: 5px;
+}
+.goo{
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#kid{
+    width: 250px;
+    height: 400px;
+    margin-top: auto;
+    background-color: rgba(107, 42, 129, 0.973);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.vv{
+    font-size: 30px;
+}
+.bb{
+    margin-top: 50px;
+}
+.dd{
+    margin-left: 700px;
+    margin-top:-210px;
+    
+}
+#ita{
+    width: 250px;
+    height: 400px;
+    margin-top: auto;
+    background-color: rgba(107, 42, 129, 0.973);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}

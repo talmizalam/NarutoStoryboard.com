@@ -1,0 +1,617 @@
+body{
+    background-image: url(images/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 99.99%;      
+    background-position: center;   
+    background-attachment: fixed
+}
+h3{
+    font-size: 1.5rem;
+    border: black;
+    margin-bottom: 1.09rem;
+}
+
+  
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+main{
+    width: 80%;
+    height: 45rem;
+    margin: auto;
+    margin: top 2rem;;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius:2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem; 
+
+}                       
+.slide{
+    border-bottom-left-radius:2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 100%;
+    height: 95%;
+    position:absolute;
+    transition: 1s;
+    margin-top: 30px;
+    box-shadow: 15px 15px;
+    
+}
+.nav {
+    
+    margin-top: -25rem;
+    margin-right: 1400px;
+}
+.nav1{
+    margin-left:1430px;
+    margin-top: -60px;
+}
+.nav button {
+    background-color: transparent;
+    cursor: pointer; 
+    border: none;
+    padding: 1.1rem;
+    transition: transform 0.5 ease;
+    
+}
+.nav1 button {
+    background-color: transparent;
+    cursor: pointer; 
+    border: none;
+    padding: 1.1rem;
+    transition: transform 0.5 ease;
+}
+a {
+    text-decoration: none;
+    font-size: -1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 1.2rem   ;
+}
+h1{
+    font-family:initial;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    margin-top:20px ;
+
+}
+h3{
+   /* margin-bottom: 5rem;*/
+    text-align: center;
+    margin-right: 45px;
+
+
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size :1.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h5{
+    font-size: 50px;
+    font-family: initial;
+    text-align: center;
+    margin-top:-60px;
+}
+.sarukepower{
+    font-size: 50px;
+    font-family: initial;
+    text-align: center;
+    margin-top: 10px;
+}
+#rasengan{
+    width: 300px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    background-color: rgb(208, 119, 81);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+
+}
+
+#kurama{
+    width: 300px;
+    height: 350px;
+    margin-bottom:50px;
+    margin-top: -400px;
+    margin-left: 620px;
+    background-color: rgb(208, 119, 81);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;  
+    border-top-right-radius: 6rem;
+
+}
+#naruto{
+    width: 300px;
+    height: 350px;
+    margin-bottom:50px;
+    margin-top: -400px;
+    margin-left: 1140px;
+    background-color: rgb(208, 119, 81);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+
+
+}
+
+#sharingan{
+    width: 300px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    background-color: rgb(139, 109, 223);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+
+}
+
+#susano{
+    width: 300px;
+    height: 350px;
+    margin-bottom:50px;
+    margin-top: -400px;
+    margin-left: 620px;
+    background-color: rgb(139, 109, 223);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+
+}
+#sword{
+    width: 300px;
+    height: 350px;
+    margin-bottom:50px;
+    margin-top: -400px;
+    margin-left: 1140px;
+    background-color: rgb(139, 109, 223);
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+
+
+}
+.teamthis{
+    font-size: 35px;
+    text-align: center;
+}
+#teamone{
+    width: 300px;
+    height: 350px;
+    margin-left: 635px;
+    margin-top: 50px;
+   
+    background-color: rgba(80, 255, 153, 0.726);
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+
+}
+.kakashih{
+    margin-bottom: 35px;
+    line-height: 0.01rem;
+    margin-left: 710px;
+
+  
+}
+
+.rope-container {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 600px;
+  transform-origin: top center;
+  animation: swing 3s ease-in-out infinite;
+}
+
+.rope {
+  width: 4px;
+  height: 120px;
+  background: #c19a6b;
+  margin: auto;
+}
+
+.box {
+  width: 160px;
+  height: 80px;
+  background: #222;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 6px;
+  margin-top: 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Swing animation */
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(4deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-4deg); }
+  100% { transform: rotate(0deg); }
+
+}
+.menulogo{
+    
+    height: 60px;
+    width:auto;
+    padding: 0;
+}
+.navbar{
+    margin-left: 1500px;
+    margin-top: -3110px;
+    margin-right: 20px;
+    
+}
+.fisrtone{
+    margin-right: 200px;
+}
+nav{
+    background: #000000;
+    padding: 0.4rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+   
+
+}
+nav ul li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover{
+    background: #5e5858;
+    border-radius: 1px;
+}
+.curve{
+    position:  relative;
+    height: 100px;
+    width: 120%;
+    right: 149px;
+    margin-top:-35px;
+    
+    
+}
+.header{
+    background: rgb(212, 147, 147);
+    border-radius: 50px;
+    height: 230px;
+    width: 1320px;
+    margin-left: 115px;
+}
+.curve1{
+    position:  relative;
+    height: 100px;
+    width: 120%;
+    right: 149px;
+    margin-top:350px;
+}
+.backg{
+    background-image: url(images/11050.jpg);
+    
+    
+}
+.curve2{
+    position:  relative;
+    height: 100px;
+    width: 120%;
+    right: 149px;
+    margin-top:-70px ;
+}
+.curve3{
+    position:  relative;
+    height: 100px;
+    width: 120%;
+    right: 149px;
+    margin-bottom: -40px;
+}
+.free{
+    margin-top: -10px;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+    
+
+}
+.two{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-20px;
+    font-size: 30px;
+    margin-top: 2px;
+
+}
+.tree{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left:-100px;
+}
+.four{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-100px ;
+}
+.five{
+    font-size: 30px;
+    margin-left:65px;
+}
+.namemy{
+    font-size: 33px;
+    margin-top: 45px;
+    margin-left:100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutbg{
+    position: relative;
+    height: 550px;
+    margin-left: 1200px;
+    margin-top: -470px;
+
+}
+.bga{
+    position: relative;
+    margin-top: -600px;
+    margin-right: 900px;
+}
+.email{
+    margin-left: 800px;
+    margin-top:200px ;
+}
+.phone{
+    margin-left: 130px;
+    margin-top:30px;
+}
+.insta{
+    margin-left: 100px;
+    margin-top: -6px;
+}
+.youtube{
+    margin-left: -950px;
+    margin-top: -47px;
+
+}
+.cuvreabout{
+    position:  relative;
+    height: 100px;
+    width: 120%;
+    right: 149px;
+    margin-top: -35px;
+}
+.About{
+    background: rgb(196, 232, 255);
+    position: relative;
+    
+}
+.fs{
+    font-size: 65px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background: #3a97bc;
+         border-radius: 50px;
+         height: 90px;
+         width: 500px;
+         margin-left: 505px;
+    }
+.aboutlogoa{
+    height: 70px;
+    margin-left: 913px;
+    margin-bottom: -110px;
+}
+.uzumakilogo{
+    height: 70px;
+    margin-left: -444px;
+    margin-bottom: -105px;
+}
+.textbg{
+    background: #2185cc;
+    border-radius: 50px;
+    height: 500px;
+    width: 650px;
+    margin-left: 425px;
+    
+    margin-top: 30px;
+
+}
+.mukan{
+    margin-top: 50px;
+}
+.neww{
+    background-color:rgb(196, 232, 255);
+    color: rgba(196, 232, 255);
+    font-size: 130px;
+    margin-top: -120px;
+    
+}
+.instagram{
+    height: 37px;
+    margin-left: 450px;
+    margin-top:-50px;
+    position: relative;
+}
+.nood{
+    margin-left: 400px;
+    width: 700px;
+    margin-top: -50px;
+    
+}   
+
+button {
+  font-family: inherit;
+}
+
+/* btn-2 */
+
+.btn-1,
+.btn-1 *,
+.btn-1 :after,
+.btn-1 :before,
+.btn-1:after,
+.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-1 {
+  scale: 0.5;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 200%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  margin-left: 193px;
+  
+}
+
+.btn-1:disabled {
+  cursor: default;
+}
+
+.btn-1:-moz-focusring {
+  outline: auto;
+}
+
+.btn-1 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-1 [hidden] {
+  display: none;
+}
+
+.btn-1 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-1 .original {
+  background: #fff;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.3s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-1:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-1 .letters {
+  display: inline-flex;
+}
+
+.btn-1 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.3s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.3s;
+}
+
+.btn-1 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+
+.btn-1:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-1:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.btn-1:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.btn-1:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.btn-1:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.btn-1:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.muskan{
+    height: 90px;
+    background: rgb(196, 232, 255);
+    margin-top: 40px;
+    margin-left:1060px;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.clickme{
+    margin-left: 1050px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: aquamarine;
+    position: relative;
+}
+.bgclick{
+}
+.small{
+    height: 180px;
+    margin-top: -60px;
+    margin-left: -500px;
+}
+.smallsasuke{
+height: 145px;
+
+}

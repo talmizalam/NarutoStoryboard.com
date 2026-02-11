@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(52, 190, 66, 0.434);
+    background-repeat: no-repeat;
+    background-size: 99.99%;      
+    background-position: center;   
+    background-attachment: fixed;
+}
+h1{
+    font-size: 2.9rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left:15px;
+}
+p{
+    font-size: 27px;
+    margin-left: 15px;
+    line-height: 10px;
+}
+.words{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif ;
+    margin-left: 100px;
+    margin-top: 35px;
+
+}
+.rehan {
+    margin-top: 45px;
+    margin-left: 6px;
+}
+.ninja{
+    line-height: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.Team{
+    
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 35px
+}
+.child{
+    margin-top: 40px;
+}
+#kid{
+    width: 250px;
+    height: 400px;
+    margin-top: auto;
+    background-color: rgba(60, 91, 64, 0.973);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.obito{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ako{
+    margin-top: auto;
+}
+#kakashiAnbu{
+    width: 250px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: rgba(60, 91, 64, 0.973);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.teamwork{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.pod{
+    margin-left: 239px;
+}
+.peace{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#jonin{
+    width: 250px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: rgba(60, 91, 64, 0.973);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}
+.all{
+    margin-left: 450px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
